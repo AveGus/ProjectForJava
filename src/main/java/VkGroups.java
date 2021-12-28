@@ -21,7 +21,7 @@ public class VkGroups {
     }
 
     public static JSONObject groupList() throws ApiException, ClientException {
-        var user = VkGroups.auth(187124030, "ecac4525046dbc36f5915b1725df90ba4cae9fb78d1cb05b31ea2bcc9a80020fb9e14ef7a7dd2cf0524d6");
+        var user = VkGroups.auth(187124030, "someToken");
         var res = new JSONObject(user.apiClient
                 .groups()
                 .getMembers(user.userActor)
