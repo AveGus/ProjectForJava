@@ -46,5 +46,10 @@
             <artifactId>netty-codec</artifactId>
             <version>4.1.33.Final</version>
         </dependency>
+        <dependency>
+            <groupId>org.knowm.xchart</groupId>
+            <artifactId>xchart</artifactId>
+            <version>3.8.1</version>
+        </dependency>
     </dependencies>
 </project>

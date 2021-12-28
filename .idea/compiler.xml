@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="The-Finish" />
+        <module name="ProjectForJava" />
       </profile>
     </annotationProcessing>
   </component>
